@@ -1,0 +1,40 @@
+h1 {
+    color:rgb(0, 0, 255);
+    text-transform: capitalize;
+    text-align: center;
+}
+p {
+    text-align:center;
+}
+.user-form {
+    padding: 5%;
+    background-color: gray;
+}
+.name {
+    display: flex;
+}
+
+.first-name {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    /* float: left; */
+}
+.last-name {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    /* float:right; */
+}
+.name input {
+    width: 35%;
+}
+
+.email {
+    padding-top: 2%;
+    display: block;
+}
+
+#email-input {
+    width: 80%
+}
